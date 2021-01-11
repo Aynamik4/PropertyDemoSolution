@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:AClassLibrary.LivingPerson.#ctor">
+            <summary>
+            Returns a new instance of the class LivingPerson and initializes its Age property to 0.
+            </summary>
+        </member>
+        <member name="M:AClassLibrary.LivingPerson.#ctor(System.Int32)">
+            <summary>
+            Returns a new instance of the class LivingPerson.
+            </summary>
+            <param name="age">Initial age of the LivingPerson instance - AgeException thrown if age is set to a value below 0 or a value above 120.</param>
+            <exception cref="T:AClassLibrary.AgeException"></exception>
+        </member>
+        <member name="P:AClassLibrary.LivingPerson.Age">
+            <summary>
+            Gets or sets the age of the LivingPerson instance. AgeException thrown if Age is set to a value below 0 or a value above 120.
+            </summary>
+            <exception cref="T:AClassLibrary.AgeException"></exception>
+        </member>
+    </members>
+</doc>

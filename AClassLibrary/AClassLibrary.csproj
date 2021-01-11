@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\hakan\OneDrive\Dokument\GitHub\PropertyDemoSolution\AClassLibrary\AClassLibrary.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
