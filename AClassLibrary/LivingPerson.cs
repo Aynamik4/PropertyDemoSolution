@@ -6,6 +6,9 @@
  * the project and select Properties. In the properties dialog, select the
  * Build tab, and check XML documentation file. You can also change the
  * location to which the compiler writes the file.
+ * 
+ * When distributing the .dll file, the .xml file should be placed in the
+ * same folder.
  */
 
 namespace AClassLibrary
@@ -15,7 +18,7 @@ namespace AClassLibrary
         private int age;
 
         /// <summary>
-        /// Returns a new instance of the class LivingPerson and initializes its Age property to 0.
+        /// Returns a new instance of the class LivingPerson<br/>and initializes its Age property to 0.
         /// </summary>
         public LivingPerson()
         {
@@ -23,9 +26,9 @@ namespace AClassLibrary
         }
 
         /// <summary>
-        /// Returns a new instance of the class LivingPerson.
+        /// Returns a new instance of the class LivingPerson.<br/>AgeException thrown if Age is set to a value below 0 or a value above 120.
         /// </summary>
-        /// <param name="age">Initial age of the LivingPerson instance - AgeException thrown if age is set to a value below 0 or a value above 120.</param>
+        /// <param name="age">Initial age of the LivingPerson instance</param>
         /// <exception cref="AgeException"></exception>
         public LivingPerson(int age)
         {
@@ -33,7 +36,7 @@ namespace AClassLibrary
         }
 
         /// <summary>
-        /// Gets or sets the age of the LivingPerson instance. AgeException thrown if Age is set to a value below 0 or a value above 120.
+        /// Gets or sets the age of the LivingPerson instance.<br/>AgeException thrown if Age is set to a value below 0 or a value above 120.
         /// </summary>
         /// <exception cref="AgeException"></exception>
         public int Age

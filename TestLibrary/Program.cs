@@ -8,6 +8,7 @@ namespace TestLibrary
         static void Main(string[] args)
         {
             //LivingPerson p = new LivingPerson();
+            LivingPerson livingPerson = new LivingPerson();
             LivingPerson person = new LivingPerson(12);
             person.Age = 34;
         }
